@@ -15,6 +15,10 @@ Handled Missing Values: Replaced blank/null cells in CouponCode with "Unknown" t
 
 Standardized Text Case: Applied Capitalize Each Word to text columns (e.g., ReferralSource) to merge duplicate categories caused by case variations (e.g., Facebook vs facebook).
 
+Extracting Month & Year Columns: Created two brand-new columns—Year and Month Name—directly derived from the raw Date column using text conversion formulas to break down time trends easily.
+
+Chronological Normalization: Transformed unformatted system serial numbers (like 44930) into standard, readable date formats (YYYY-MM-DD).
+
 Fixed Formats: Cast the Date column strictly to Date type and rounded the TotalPrice column to 2 decimal places to align with financial corporate standards.
 
 🎯 Conclusion
